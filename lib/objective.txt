@@ -1,0 +1,9 @@
+Objective:
+1) splash screen - done
+2) Registration screen ( Full Name, Email, Contact no, Gender Password Save) - done
+3) Login ( email and password and submit) - done
+4) Home Screen: app navbar with bell icon and search icon - done
+5) Main screen: here I need to show some educational courses with pricing - done
+and ratings of the courses or the user can view the course. - done
+6) Burger Drawer: My Profile, My courses, About Us, logout. - done
+

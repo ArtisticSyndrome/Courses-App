@@ -1,0 +1,58 @@
+import 'package:intern_project/widgets/course_container.dart';
+
+final List<Course> dummyCourses = [
+  Course(
+    id: '1',
+    title: 'Flutter Development Masterclass',
+    instructor: 'John Doe',
+    price: 49.99,
+    rating: 4.8,
+    reviewCount: 245,
+    imageUrl: 'assets/flutter.jpg',
+  ),
+  Course(
+    id: '2',
+    title: 'SQL and MongoDB',
+    instructor: 'Jane Smith',
+    price: 39.99,
+    rating: 4.6,
+    reviewCount: 189,
+    imageUrl: 'assets/database.jpg',
+  ),
+  Course(
+    id: '3',
+    title: 'Advanced Python Programming',
+    instructor: 'Mike Johnson',
+    price: 59.99,
+    rating: 4.9,
+    reviewCount: 312,
+    imageUrl: 'assets/python.jpg',
+  ),
+  Course(
+    id: '4',
+    title: 'Web Design Fundamentals',
+    instructor: 'Sarah Williams',
+    price: 44.99,
+    rating: 4.7,
+    reviewCount: 267,
+    imageUrl: 'assets/web.jpg',
+  ),
+  Course(
+    id: '5',
+    title: 'React.js Essentials',
+    instructor: 'David Brown',
+    price: 54.99,
+    rating: 4.5,
+    reviewCount: 201,
+    imageUrl: 'assets/react.jpg',
+  ),
+  Course(
+    id: '6',
+    title: 'Mobile App Design UI/UX',
+    instructor: 'Emily Davis',
+    price: 49.99,
+    rating: 4.8,
+    reviewCount: 276,
+    imageUrl: 'assets/figma.jpg',
+  ),
+];
