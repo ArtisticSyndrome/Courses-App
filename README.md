@@ -1,43 +1,51 @@
 <p align="center">
-  <img src="assets/appicon.png" width="200" alt="Courses App Icon">
+<img src="assets/appicon.png" width="200" alt="Courses App Icon">
 </p>
 
 <h1 align="center">Courses App</h1>
-<p align="center">A clean and modern Flutter application for browsing online courses, registering users, and showcasing course details beautifully. Built with effortless navigation and smooth UI. 📚✨</p>
+<p align="center">A cross-platform mobile application built with Flutter for browsing and managing a catalog of courses. Features full user authentication and persistent login state. 📚✨</p>
+
+✨ Features
+
+Authentication Flow: Complete user sign-up (/register) and sign-in (/login) pages.
+
+Persistent Session: Uses local storage (shared_preferences) to maintain user login state across app restarts.
+
+Course Catalog: Home screen (/home) displaying a rich list of available courses with ratings and pricing.
+
+Navigation Drawer: Convenient access to Profile, My Courses, About Us, and Logout options.
+
+Responsive UI: Built with Flutter's Material Design to ensure a clean, modern, and adaptive experience on all devices.
+
+About Page: Dedicated information screen (as seen in ss/About Us.jpg).
+
+🛠 Tech Stack & Packages
+
+The application is built using the Flutter framework and Dart language.
+
+Flutter: 3.38.3 (Stable)
+
+Dart SDK: 3.10.2 (Stable)
+
+Key Dependencies
+
+| Tech / Package | Version | Purpose |
+|----------------|---------|---------|
+| **Flutter** | *Latest Stable* | Main framework |
+| **Dart SDK** | *Latest Stable* | Language |
+| **shared_preferences** | ^2.2.3 | Store login credentials locally |
+| **flutter_launcher_icons** | ^0.13.1 | App icon generation |
+| **cupertino_icons** | ^1.0.8 | iOS-style icons |
 
 ---
 
-## ✨ Features
+🚀 Getting Started
 
-- **📚 Browse Courses** — Flutter, SQL, MongoDB, Python, React, Web Design & more  
-- **🔐 User Authentication** — Login & Register screens  
-- **👤 Local Profile Storage** — Using Shared Preferences  
-- **🎨 Clean UI / UX** — Smooth layouts & consistent design  
-- **📱 Responsive Design** — Works on all screen sizes  
-- **🌙 Dark layout theme** — Purple-themed interface  
-- **🔖 Custom App Icon** — Located at `assets/appicon.png`  
-- **🧭 Drawer Navigation** — About Us, Profile, My Courses, Logout  
+Follow these steps to set up and run the project locally.
 
----
+Prerequisites
 
-## 🛠 Tech Stack & Packages
+You must have the Flutter SDK installed on your machine.
 
-All versions below are the latest stable as of **2025**:
-
-| Package / Tech | Latest Version | Purpose |
-|----------------|----------------|---------|
-| **Flutter** | 3.27.0 (stable) | Main framework |
-| **Dart SDK** | 3.6.x | Language |
-| **shared_preferences** | ^2.3.2 | Store user login locally |
-| **cupertino_icons** | ^1.0.8 | iOS styled icons |
-| **flutter_launcher_icons** | ^0.13.1 | Generate app icons |
-
-> 💡 *If you want me to auto-generate the exact version numbers from pub.dev in real-time, just say “load versions” and I’ll fetch the latest.*  
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/ArtisticSyndrome/Courses-App.git
+Check Flutter Installation:
+```flutter doctor ```
