@@ -20,8 +20,8 @@
 |----------------|---------|---------|
 | **Flutter** | *Latest Stable* | Main framework |
 | **Dart SDK** | *Latest Stable* | Language |
-| **shared_preferences** | ^2.2.3 | Store login credentials locally |
-| **flutter_launcher_icons** | ^0.13.1 | App icon generation |
+| **shared_preferences** | ^2.5.3 | Store login credentials locally |
+| **flutter_launcher_icons** | ^0.14.4 | App icon generation |
 | **cupertino_icons** | ^1.0.8 | iOS-style icons |
 
 ---
